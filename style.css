@@ -3,7 +3,7 @@
     border-radius: 10px;
 }
 
-div>p{
+.quizz-options{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-left: -16px;
@@ -16,11 +16,11 @@ div>p{
     background-color: #eee;
 }
 
-input, select{
+#noq,#st,#et,#sd,#ed{
     cursor: pointer;
 }
 
-label{
+#labelsOfInput{
     padding-top: 12px;
     margin-bottom: -2px !important;
     text-indent: 1px;
@@ -28,3 +28,30 @@ label{
     font-family: 'Roboto', sans-serif;
 }
 
+.nextButtonShah{
+    border:1px;
+    border-radius: 5px !important;
+    color: white;
+    height: 28px;
+    width: 20%;
+    background-color:#5cb85c;
+    margin-right: 15px !important;
+
+}
+.nextButtonShah:hover{
+    background-color: #45B6AF;
+}
+
+.selectionOfNext{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -16px;
+    margin-right: -16px;
+    padding-top: 8px;
+    text-indent:15px;
+    font-size: 17px;
+    font-family: 'Lucida Sans';
+    height: 40px;
+    background-color: #eee;
+
+}

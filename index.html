@@ -21,9 +21,9 @@
         -->
 
   <div class="demo-shah col-md-8 container">
-    <p> Quiz Options</p>
+    <p class="quizz-options"> Quiz Options</p>
 
-    <label>Number Of Questions:</label>
+    <label id="labelsOfInput">Number Of Questions:</label>
     <select class="form-control" name="" id="noq">
       <option value="00"> &ensp; Select &ensp; &ensp; </option>
       <option value="01">1</option>
@@ -81,7 +81,7 @@
 
     <div class="row">
       <div class="col-md-6">
-        <label>Start Time: </label>
+        <label id="labelsOfInput">Start Time: </label>
         <input class="form-control" type="time" name="" id="st" value="12:00">
       </div>
 
@@ -94,18 +94,24 @@
 
     <div class="row">
       <div class="col-md-6">
-        <label>Start Date:</label>
+        <label id="labelsOfInput">Start Date:</label>
         <input class="form-control" type="date" min="2020-11-1" name="" id="sd" value="2020-11-01">
       </div>
 
       <div class="col-md-6">
-        <label>End Date:</label>
+        <label id="labelsOfInput">End Date:</label>
         <input class="form-control" type="date" name="" id="ed" value="2020-11-02">
       </div>
     </div>
-
-
     <br>
+
+    <div class="selectionOfNext">
+      <!-- Quiz Details:
+      <span id="timeDuration"></span> -->
+      <button class="float-right nextButtonShah" id="next">Next</button>
+    </div>
+
+
   </div>
 
 

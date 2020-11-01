@@ -16,3 +16,15 @@ console.log(startDate)
 
 var endtDate = document.getElementById("ed").innerHTML
 console.log(endtDate)
+
+
+
+function timeDuration(){
+var timeDuration = document.getElementById("ntimeDuration").innerHTML
+console.log(startTime-endTime)
+console.log(timeDuration)
+}
+
+
+var nextButton = document.getElementById("next").innerHTML
+console.log(nextButton)
